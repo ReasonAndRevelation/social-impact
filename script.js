@@ -48,4 +48,4 @@ btnRu.addEventListener('click', () => {
 
 // === 4. ИНИЦИАЛИЗАЦИЯ ПРИ ЗАГРУЗКЕ СТРАНИЦЫ ===
 // По умолчанию выводим дату на русском языке
-updateLastModifiedDate('ru-RU');
+updateLastModifiedDate('en-US');
