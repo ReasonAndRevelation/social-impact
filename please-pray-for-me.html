@@ -1,37 +1,70 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reason and Revelation</title>
-    <!-- Подключаем файл со стилями -->
-    <link rel="stylesheet" href="style.css">
-    <!-- Подключаем внешний JavaScript-файл с атрибутом defer -->
-    <script src="script.js" defer></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Reason and Revelation</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
 </head>
 <body>
 
-    <!-- НАВИГАЦИЯ И МЕНЮ -->
-    <nav>
-        <div class="nav-container">
-            <a href="/index.html" class="nav-link">Home</a>
-            <a href="/prayer.html" class="nav-link">Prayer</a>
-            <a href="#" class="nav-link">Under construction</a>
+<!-- НАВИГАЦИЯ -->
 
-            <!-- Блок переключения языка -->
-            <div class="lang-switch">
-                <button class="lang-btn active" id="btn-en">EN</button>
-                <button class="lang-btn" id="btn-ru">RU</button>
-            </div>
+<nav>
+
+    <div class="nav-container">
+
+        <a href="/index.html"
+           class="nav-link"
+           data-en="Home"
+           data-ru="Главная">
+           Home
+        </a>
+
+        <a href="/prayer.html"
+           class="nav-link"
+           data-en="Prayer"
+           data-ru="Молитва">
+           Prayer
+        </a>
+
+        <a href="#"
+           class="nav-link"
+           data-en="Under construction"
+           data-ru="В разработке">
+           Under construction
+        </a>
+
+        <div class="lang-switch">
+
+            <button class="lang-btn active" id="btn-en">
+                EN
+            </button>
+
+            <button class="lang-btn" id="btn-ru">
+                RU
+            </button>
+
         </div>
-    </nav>
 
-    <!-- ТЕКСТОВЫЙ КОНТЕНТ -->
-    <main class="text-container">
+    </div>
 
-        <!-- АНГЛИЙСКАЯ ВЕРСИЯ -->
-        <div class="lang-content en-content">
-           <h1>Please pray for me</h1>
+</nav>
+
+
+<!-- КОНТЕНТ -->
+
+<main class="text-container">
+
+    <!-- Английский -->
+
+    <div class="en-content">
+
+        <h1>Please pray for me</h1>
         
             <p>
                 I have come under a magical attack. Please pray for me: <span style="color: blue;">
@@ -45,12 +78,14 @@
                 creator of this website. Please, deliver them from all magical influence. Allah, 
                 perhaps You would add something to this."</span>
             </p>
-        </div>
 
-        <!-- РУССКАЯ ВЕРСИЯ (скрыта по умолчанию) -->
-        <div class="lang-content ru-content" style="display: none;">
-             <h1>Пожалуйста, помолитесь за меня</h1>
-        
+    </div>
+
+
+    <!-- Русский -->
+
+    <div class="ru-content">
+
             <p>
                 Я подвергся магической атаке. Пожалуйста, помолитесь за меня: <span style="color: blue;">
                 "Господи, я молюсь за создателя этого сайта. Пожалуйста, избавь создателя этого сайта от 
@@ -63,14 +98,32 @@
                 создателя этого сайта. Пожалуйста, избавь создателя этого сайта от всякого магического 
                 влияния. Аллах, возможно, Ты что-то добавишь к этому".</span>
             </p>
-        </div>
 
-    </main>
+    </div>
 
-    <!-- БЛОК С ДАТОЙ И ПОДВАЛ -->
-    <footer>
-        <p>Last updated: <span id="last-modified"></span></p>
-    </footer>
+</main>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>
+
+        <span
+            id="last-updated-text"
+            data-en="Last updated:"
+            data-ru="Последнее обновление:">
+
+            Last updated:
+
+        </span>
+
+        <span id="last-modified"></span>
+
+    </p>
+
+</footer>
 
 </body>
 </html>
