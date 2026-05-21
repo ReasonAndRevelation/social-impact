@@ -4,57 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reason and Revelation</title>
-    <!-- Подключаем наш файл со стилями style.css -->
+    <!-- Подключаем файл со стилями -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- ==========================================================================
-       2. НАВИГАЦИЯ И МЕНЮ (NAVIGATION) + 3. ПЕРЕКЛЮЧАТЕЛЬ ЯЗЫКА
-       ========================================================================== -->
+    <!-- НАВИГАЦИЯ И МЕНЮ -->
     <nav>
         <div class="nav-container">
-            <!-- Ссылки в меню -->
             <a href="/index.html" class="nav-link">Home</a>
             <a href="/prayer.html" class="nav-link">Prayer</a>
             <a href="#" class="nav-link">Under construction</a>
 
-            <!-- Блок переключения языка (автоматически прижмется к правому краю из-за margin-left: auto в CSS) -->
+            <!-- Блок переключения языка с ID для JavaScript -->
             <div class="lang-switch">
-                <button class="lang-btn active">EN</button>
-                <button class="lang-btn">RU</button>
+                <button class="lang-btn active" id="btn-en">EN</button>
+                <button class="lang-btn" id="btn-ru">RU</button>
             </div>
         </div>
     </nav>
 
-    <!-- ==========================================================================
-       4. ТЕКСТОВЫЙ КОНТЕНТ (TYPOGRAPHY & CONTENT) + 5. ГИПЕРССЫЛКИ
-       ========================================================================== -->
+    <!-- ТЕКСТОВЫЙ КОНТЕНТ -->
     <main class="text-container">
 
-        <h1>If it happened</h1>
-         
-        <p>
-            Statistically, you women live longer than men because you don't keep anything inside. 
-	    You tell everything to your friends. You cry more. And gradually the pain comes out. 
-            Of course, rape is a serious pain. Therefore, this process needs to be accelerated.
-        </p>
-        
-        <p>
-            Try this: <strong>RECALL</strong> how you were raped. As realistically as possible. In details. 
-            As often as possible. Every day. The pain, resentment, and other things will come out. 
-            It is important that you cry. <strong>EVERYTHING WILL GO AWAY WITH TEARS.</strong> There will be a fact: 
-            yes, I was raped. But there will be no negative emotions turning your life into a nightmare. 
-            This means you will also minimize the harm to your health. The rapist feeds on your energy of pain. 
-            This is psychological vampirism. That is why such people might say: 'You will remember me for a long time.' 
-            Try it. It will help.
-        </p>
+        <!-- АНГЛИЙСКАЯ ВЕРСИЯ -->
+        <div class="lang-content en-content">
+            <h1>If it happened</h1>
+            <p>
+                Statistically, you women live longer than men because you don't keep anything inside. 
+                You tell everything to your friends. You cry more. And gradually the pain comes out. 
+                Of course, rape is a serious pain. Therefore, this process needs to be accelerated.
+            </p>
+            <p>
+                Try this: <strong>RECALL</strong> how you were raped. As realistically as possible. In details. 
+                As often as possible. Every day. The pain, resentment, and other things will come out. 
+                It is important that you cry. <strong>EVERYTHING WILL GO AWAY WITH TEARS.</strong> There will be a fact: 
+                yes, I was raped. But there will be no negative emotions turning your life into a nightmare. 
+                This means you will also minimize the harm to your health. The rapist feeds on your energy of pain. 
+                This is psychological vampirism. That is why such people might say: "You will remember me for a long time." 
+                Try it. It will help.
+            </p>
+            <p>
+                PS: it also helps with the loss of loved ones. With different kinds of pain.
+            </p>
+        </div>
 
-        <p>
-            PS: it also helps with the loss of loved ones. With different kinds of pain.
-	</p>
+        <!-- РУССКАЯ ВЕРСИЯ (скрыта по умолчанию через инлайн-стиль) -->
+        <div class="lang-content ru-content" style="display: none;">
+            <h1>Если это случилось</h1>
+            <p>
+                Статистически вы, женщины, живете дольше мужчин, потому что ничего не держите в себе. 
+                Вы все рассказываете подругам. Вы больше плачете. И постепенно боль уходит. 
+                Конечно, изнасилование — это тяжелая боль. Поэтому этот процесс нужно ускорить.
+            </p>
+            <p>
+                Попробуйте следующее: <strong>ВСПОМИНАЙТЕ</strong> то, как вас изнасиловали. Максимально реалистично. В деталях. 
+                Как можно чаще. Каждый день. Боль, обида и все остальное будут выходить наружу. 
+                Важно, чтобы вы плакали. <strong>ВСЕ УЙДЕТ СО СЛЕЗАМИ.</strong> Останется лишь факт: 
+                да, меня изнасиловали. Но не будет негативных эмоций, превращающих вашу жизнь в кошмар. 
+                Это значит, что вы также минимизируете вред своему здоровью. Насильник питается вашей энергией боли. 
+                Это психологический вампиризм. Вот почему такие люди могут говорить: "Ты меня надолго запомнишь". 
+                Попробуйте. Это поможет.
+            </p>
+            <p>
+                PS: это также помогает при потере близких. При самых разных видах боли.
+            </p>
+        </div>
 
     </main>
 
+    <!-- ПОДКЛЮЧАЕМ ВНЕШНИЙ СКРИПТ (создайте этот файл рядом с index.html) -->
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

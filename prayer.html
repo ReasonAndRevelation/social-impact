@@ -3,109 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prayer</title>
-    <!-- Подключаем наш файл со стилями style.css -->
+    <title>Reason and Revelation</title>
+    <!-- Подключаем файл со стилями -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- ==========================================================================
-       2. НАВИГАЦИЯ И МЕНЮ (NAVIGATION) + 3. ПЕРЕКЛЮЧАТЕЛЬ ЯЗЫКА
-       ========================================================================== -->
+    <!-- НАВИГАЦИЯ И МЕНЮ -->
     <nav>
         <div class="nav-container">
-            <!-- Ссылки в меню -->
             <a href="/index.html" class="nav-link">Home</a>
             <a href="/prayer.html" class="nav-link">Prayer</a>
             <a href="#" class="nav-link">Under construction</a>
 
-            <!-- Блок переключения языка (автоматически прижмется к правому краю из-за margin-left: auto в CSS) -->
+            <!-- Блок переключения языка с ID для JavaScript -->
             <div class="lang-switch">
-                <button class="lang-btn active">EN</button>
-                <button class="lang-btn">RU</button>
+                <button class="lang-btn active" id="btn-en">EN</button>
+                <button class="lang-btn" id="btn-ru">RU</button>
             </div>
         </div>
     </nav>
 
-    <!-- ==========================================================================
-       4. ТЕКСТОВЫЙ КОНТЕНТ (TYPOGRAPHY & CONTENT) + 5. ГИПЕРССЫЛКИ
-       ========================================================================== -->
+    <!-- ТЕКСТОВЫЙ КОНТЕНТ -->
     <main class="text-container">
 
-        <h1>Prayer</h1>
-        
-        <p>
-            I think many Christians have heard and read that GOD WILL GRANT WHATEVER YOU ASK IN THE NAME OF JESUS CHRIST. 
-            Right now, ask God: <span style="color: blue;">“Lord, I have suffered sexual and physical abuse all my life. 
-            Please heal me. Remove the scars of sexual and physical abuse from my body and my soul, renew me, Lord. Free me 
-            from all resentment. Please make it so that I will never again be raped, beaten, or humiliated in my life. Lord, 
-            remove all the causes that make me a victim. LORD, MAYBE THERE IS SOMETHING YOU WOULD LIKE TO ADD TO MY PRAYER
-            </span> (it is important to say this, because God knows better and more than we do). <span style="color: blue;">
-            LORD, I ASK YOU FOR ALL OF THIS IN THE NAME OF JESUS CHRIST.”</span>
-        </p>
-        
-        <p>
-            If you have a man in your life: <span style="color: blue;">“Lord, change my man for the better. Let him stop being 
-            aggressive and become a good man for me. Or, if that is impossible, let him leave my life. LORD, MAYBE THERE IS 
-            SOMETHING YOU WOULD LIKE TO ADD TO MY PRAYER. LORD, I ASK YOU FOR ALL OF THIS IN THE NAME OF JESUS CHRIST.”</span>
-        </p>
+        <!-- АНГЛИЙСКАЯ ВЕРСИЯ -->
+        <div class="lang-content en-content">
 
-        <p>
-            If you are a Muslim, right now, ask Allah: <span style="color: green;">“Allah, I have suffered sexual and physical 
-            abuse all my life. Please heal me. Remove the scars of sexual and physical abuse from my body and my soul, renew me. 
-            Allah, free me from all resentment. Please make it so that I will never again be raped, beaten, or humiliated in my 
-            life. Allah, remove all the causes that make me a victim. ALLAH, MAYBE THERE IS SOMETHING YOU WOULD LIKE TO ADD TO 
-            MY PRAYER"</span> (it is important to say this, because Allah knows better and more than we do).
-        </p>
+            <h1>Prayer</h1>
         
-        <p>
-            If you have a man in your life: <span style="color: green;">“Allah, change my man for the better. Let him stop being 
-            aggressive and become a good man for me. Or, if that is impossible, let him leave my life. ALLAH, MAYBE THERE IS 
-            SOMETHING YOU WOULD LIKE TO ADD TO MY PRAYER.”</span>
-        </p>
-
-        <p>
-            Ask right now. And then also go to church/mosque and pray there. From my own experience, I know that praying in church/
-            mosque works more powerfully. But do not waste time: pray now, wherever you are, and then also pray in church/mosque.
-        </p>
+            <p>
+                I think many Christians have heard and read that GOD WILL GRANT WHATEVER YOU ASK IN THE NAME OF JESUS CHRIST. 
+                Right now, ask God: <span style="color: blue;">"Lord, I have suffered sexual and physical abuse all my life. 
+                Please heal me. Remove the scars of sexual and physical abuse from my body and my soul, renew me, Lord. Free me 
+                from all resentment. Please make it so that I will never again be raped, beaten, or humiliated in my life. Lord, 
+                remove all the causes that make me a victim. LORD, MAYBE THERE IS SOMETHING YOU WOULD LIKE TO ADD TO MY PRAYER
+                </span> (it is important to say this, because God knows better and more than we do). <span style="color: blue;">
+                LORD, I ASK YOU FOR ALL OF THIS IN THE NAME OF JESUS CHRIST."</span>
+            </p>
         
-        <p>
-            We attract into our lives what we fear. If you do not do this, it will continue to repeat itself. If you have ever 
-            been raped even once in your life, you were a victim. There are victims and there are aggressors. Victims of rape 
-            can simply be recognized. Some try to hide it behind a mask of confidence and sexually uninhibited behavior. But 
-            that does not work.
-        </p>
+            <p>
+                If you have a man in your life: <span style="color: blue;">"Lord, change my man for the better. Let him stop being 
+                aggressive and become a good man for me. Or, if that is impossible, let him leave my life. LORD, MAYBE THERE IS 
+                SOMETHING YOU WOULD LIKE TO ADD TO MY PRAYER. LORD, I ASK YOU FOR ALL OF THIS IN THE NAME OF JESUS CHRIST."</span>
+            </p>
 
-        <p>
-            How many predators are there in the world? A lot. That is why you need to stop being a victim. God will help.
-
-        </p>
+            <p>
+                If you are a Muslim, right now, ask Allah: <span style="color: green;">"Allah, I have suffered sexual and physical 
+                abuse all my life. Please heal me. Remove the scars of sexual and physical abuse from my body and my soul, renew me. 
+                Allah, free me from all resentment. Please make it so that I will never again be raped, beaten, or humiliated in my 
+                life. Allah, remove all the causes that make me a victim. ALLAH, MAYBE THERE IS SOMETHING YOU WOULD LIKE TO ADD TO 
+                MY PRAYER"</span> (it is important to say this, because Allah knows better and more than we do).
+            </p>
         
-        <p>
-            Someone may say, “I asked God, and He did not help.” Did you simply ask, or did you ask in the name of Jesus Christ? 
-            Those are two different things.
-        </p>
+            <p>
+                If you have a man in your life: <span style="color: green;">"Allah, change my man for the better. Let him stop being 
+                aggressive and become a good man for me. Or, if that is impossible, let him leave my life. ALLAH, MAYBE THERE IS 
+                SOMETHING YOU WOULD LIKE TO ADD TO MY PRAYER."</span>
+            </p>
 
-        <p>
-            And another thing: people are different. The closer a person is to God, the more help he/she  receives from Him. When 
-            we sin, evil spirits enter us. Yes, that is why people’s faces are different. They are immaterial, but real. They want 
-            evil for people and create bad situations. They pull us toward the dark side, and where there is much darkness, there is 
-            little light. Therefore, there are more problems.
-        </p>
+            <p>
+                Ask right now. And then also go to church/mosque and pray there. From my own experience, I know that praying in church/
+                mosque works more powerfully. But do not waste time: pray now, wherever you are, and then also pray in church/mosque.
+            </p>
         
-        <p>
-           Just ask God in the name of Jesus Christ. Ask Allah. I wish you to solve your problems.
-        </p>
+            <p>
+                We attract into our lives what we fear. If you do not do this, it will continue to repeat itself. If you have ever 
+                been raped even once in your life, you were a victim. There are victims and there are aggressors. Victims of rape 
+                can simply be recognized. Some try to hide it behind a mask of confidence and sexually uninhibited behavior. But 
+                that does not work.
+            </p>
 
-        <p>
-           Please <a href="/please-pray-for-me.html" target="_blank">pray for me.</a>
-        </p>
+            <p>
+                How many predators are there in the world? A lot. That is why you need to stop being a victim. God will help.
+
+            </p>
+        
+            <p>
+                Someone may say, "I asked God, and He did not help." Did you simply ask, or did you ask in the name of Jesus Christ? 
+                Those are two different things.
+            </p>
+
+            <p>
+                And another thing: people are different. The closer a person is to God, the more help he/she  receives from Him. When 
+                we sin, evil spirits enter us. Yes, that is why people’s faces are different. They are immaterial, but real. They want 
+                evil for people and create bad situations. They pull us toward the dark side, and where there is much darkness, there is 
+                little light. Therefore, there are more problems.
+            </p>
+        
+            <p>
+                Just ask God in the name of Jesus Christ. Ask Allah. I wish you to solve your problems.
+            </p>
+
+            <p>
+                Please <a href="/please-pray-for-me.html" target="_blank">pray for me.</a>
+            </p>
+
+        </div>
+
+        <!-- РУССКАЯ ВЕРСИЯ (скрыта по умолчанию через инлайн-стиль) -->
+        <div class="lang-content ru-content" style="display: none;">
+
+            <h1>Молитва</h1>
+        
+            <p>
+                Думаю, многие христиане слышали и читали о том, что БОГ ИСПОЛНИТ ВСЁ, ЧТО БЫ ВЫ НИ ПОПРОСИЛИ ВО ИМЯ ИИСУСА ХРИСТА. 
+                Прямо сейчас попросите Бога: <span style="color: blue;">"Господи, я всю жизнь страдаю от сексуального и физического 
+                насилия. Пожалуйста, исцели меня. Удали шрамы от сексуального и физического насилия с моего тела и из моей души, 
+                обнови меня, Господи. Освободи меня от всякой обиды. Пожалуйста, сделай так, чтобы меня больше никогда в жизни не 
+                насиловали, не били и не унижали. Господи, устрани все причины, которые делают меня жертвой. ГОСПОДИ, ВОЗМОЖНО, ТЫ 
+                ХОТЕЛ БЫ ЧТО-ТО ДОБАВИТЬ К МОЕЙ МОЛИТВЕ</span> (это важно сказать, потому что Бог знает лучше и больше, чем мы). 
+                <span style="color: blue;">ГОСПОДИ, Я ПРОШУ ТЕБЯ ОБО ВСЕМ ЭТОМ ВО ИМЯ ИИСУСА ХРИСТА".</span>
+            </p>
+        
+            <p>
+                Если в вашей жизни есть мужчина: <span style="color: blue;">"Господи, измени моего мужчину к лучшему. Пусть он перестанет 
+                быть агрессивным и станет для меня хорошим человеком. Или, если это невозможно, пусть он уйдет из моей жизни. ГОСПОДИ, 
+                ВОЗМОЖНО, ТЫ ХОТЕЛ БЫ ЧТО-ТО ДОБАВИТЬ К МОЕЙ МОЛИТВЕ. ГОСПОДИ, Я ПРОШУ ТЕБЯ ОБО ВСЕМ ЭТОМ ВО ИМЯ ИИСУСА ХРИСТА".</span>
+            </p>
+
+            <p>
+                Если вы мусульманин, прямо сейчас попросите Аллаха: <span style="color: green;">"Аллах, я всю жизнь страдаю от сексуального 
+                и физического насилия. Пожалуйста, исцели меня. Удали шрамы от сексуального и физического насилия с моего тела и из моей 
+                души, обнови меня. Аллах, освободи меня от всякой обиды. Пожалуйста, сделай так, чтобы меня больше никогда в жизни не 
+                насиловали, не били и не унижали. Аллах, устрани все причины, которые делают меня жертвой. АЛЛАХ, ВОЗМОЖНО, ТЫ ХОТЕЛ БЫ 
+                ЧТО-ТО ДОБАВИТЬ К МОЕЙ МОЛИТВЕ"</span> (это важно сказать, потому что Аллах знает лучше и больше, чем мы).
+            </p>
+        
+            <p>
+                Если в вашей жизни есть мужчина: <span style="color: green;">"Аллах, измени моего мужчину к лучшему. Пусть он перестанет 
+                быть агрессивным и станет для меня хорошим человеком. Или, если это невозможно, пусть он уйдет из моей жизни. АЛЛАХ, 
+                ВОЗМОЖНО, ТЫ ХОТЕЛ БЫ ЧТО-ТО ДОБАВИТЬ К МОЕЙ МОЛИТВЕ".</span>
+            </p>
+
+            <p>
+                Попросите прямо сейчас. А затем также сходите в церковь/мечеть и помолитесь там. По своему опыту я знаю, что молитва в 
+                церкви/мечети действует сильнее. Но не теряйте времени: молитесь сейчас, где бы вы ни находились, а затем также помолитесь 
+                в церкви/мечети.
+            </p>
+        
+            <p>
+                Мы притягиваем в свою жизнь то, чего боимся. Если вы этого не сделаете, это будет продолжать повторяться. Если вас хотя бы 
+                раз в жизни насиловали, вы были жертвой. Существуют жертвы и существуют агрессоры. Жертв насилия можно легко узнать. Некоторые 
+                пытаются скрыть это за маской уверенности и сексуально раскрепощенного поведения. Но это не работает.
+            </p>
+
+            <p>
+                Сколько хищников в мире? Очень много. Вот почему вам нужно перестать быть жертвой. Бог поможет.
+            </p>
+        
+            <p>
+                Кто-то может сказать: "Я просил Бога, и Он не помог". Вы просто просили или просили во имя Иисуса Христа? 
+                Это две разные вещи.
+            </p>
+
+            <p>
+                И еще одно: люди разные. Чем ближе человек к Богу, тем больше помощи он/она получает от Него. Когда мы грешим, в нас входят 
+                злые духи. Да, именно поэтому лица людей меняются. Они нематериальны, но реальны. Они желают людям зла и создают плохие 
+                ситуации. Они тянут нас на темную сторону, а там, где много тьмы, мало света. Поэтому возникает больше проблем.
+            </p>
+        
+            <p>
+                Просто попросите Бога во имя Иисуса Христа. Попросите Аллаха. Желаю вам решения ваших проблем.
+            </p>
+
+            <p>
+                Пожалуйста, <a href="/please-pray-for-me.html" target="_blank">помолитесь за меня.</a>
+            </p>
+
+        </div>
 
     </main>
 
+    <!-- ПОДКЛЮЧАЕМ ВНЕШНИЙ СКРИПТ (создайте этот файл рядом с index.html) -->
+    <script src="script.js"></script>
 </body>
 </html>
-
 
 
 
